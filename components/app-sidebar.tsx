@@ -103,25 +103,6 @@ export function AppSidebar() {
           </div>
         </DropdownMenuTrigger>
         <DropdownMenuContent align="start" className="w-64">
-          <DropdownMenuLabel>Changer de compte</DropdownMenuLabel>
-          <DropdownMenuSeparator />
-          <DropdownMenuItem>
-            <div className="flex items-center gap-3">
-              <Avatar className="h-6 w-6">
-                <AvatarFallback>JD</AvatarFallback>
-              </Avatar>
-              <div className="text-sm">Jean Dupont</div>
-            </div>
-          </DropdownMenuItem>
-          <DropdownMenuItem>
-            <div className="flex items-center gap-3">
-              <Avatar className="h-6 w-6">
-                <AvatarFallback>LM</AvatarFallback>
-              </Avatar>
-              <div className="text-sm">Lucie Martin</div>
-            </div>
-          </DropdownMenuItem>
-          <DropdownMenuSeparator />
           <DropdownMenuItem className="text-destructive">
             Se déconnecter
           </DropdownMenuItem>
